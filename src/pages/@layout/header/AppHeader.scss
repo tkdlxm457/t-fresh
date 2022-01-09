@@ -1,0 +1,97 @@
+a {
+    text-decoration: none;
+    color: rgb(96, 96, 96);
+}
+.header-container {
+    z-index: 3;
+    .header {
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        background-color: white;
+        height: 60px;
+        .top {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            width: 100%;
+            padding: 0.8rem !important;
+            align-items: center;
+            .logo {
+                width: 110px;
+                margin-top: -10px;
+                padding-left: 10px;
+                cursor: pointer;
+            }
+
+            nav {
+                display: flex;
+                align-items: center;
+                flex-direction: row;
+                .nav-menu {
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    align-items: center;
+                    flex-basis: auto;
+                    padding-right: 20px;
+                    ul {
+                        list-style: none;
+                        color: rgb(96, 96, 96);
+                    }
+                    .main-menu-list {
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: wrap;
+                        align-items: center;
+                        .main-menu-toggle {
+                            padding-right: 20px;
+                            &:hover .sub-menu-list {
+                                display: grid;
+                            }
+                            .main-menu-item {
+                                color: rgb(96, 96, 96);
+                                font-weight: 500;
+                                font-size: 0.9rem;
+                                padding: 0.5rem;
+                                &:hover {
+                                    color: black;
+                                }
+                            }
+
+                            .sub-menu-list {
+                                display: none;
+                                position: absolute;
+                                background-color: #f9f9f9;
+                                min-width: 160px;
+                                box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+                                z-index: 1;
+                                font-size: 1rem;
+                                padding: 0.5rem 0;
+                                margin: 0.125rem 0 0;
+
+                                .sub-menu-item {
+                                    width: 80%;
+                                    clear: both;
+                                    font-weight: 400;
+                                    text-align: inherit;
+                                    white-space: nowrap;
+                                    background-color: transparent;
+                                    border: 0;
+                                    padding: 12px 16px;
+                                    color: black;
+                                    &:hover {
+                                        background-color: rgb(221, 221, 221);
+                                        font-weight: bold;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

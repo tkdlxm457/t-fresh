@@ -1,0 +1,52 @@
+
+.footer {
+    position: relative;
+    bottom: 0px;
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    .container {
+        padding: 2rem;
+        background-color: rgb(49, 53, 62);
+        color: rgb(213, 213, 213);
+        .contact {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            margin-left: -15px;
+            padding: 0px;
+            @media (max-width: 770px) {
+                grid-template-columns: 1fr;
+            }
+            .contact-desc {
+                text-align: center;
+                hr {
+                    width: 85%;
+                    margin-top: 0.8rem;
+                    margin-bottom: 1rem;
+                    border-top: 1px solid rgb(213, 213, 213);
+                }
+                h5 {
+                    font-size: 0.85rem;
+                }
+                a {
+                    color: #d5d5d5;
+                    text-decoration: none;
+                    background-color: transparent;
+                    cursor: pointer;
+                }
+            }
+        }
+        .footer-bottom {
+            text-align: center;
+            hr {
+                border-top: 1px solid #d5d5d5;
+                width: 100%;
+                margin-top: 0.8rem;
+                margin-bottom: 1rem;
+            }
+            h5 {
+                font-size: 0.85rem;
+            }
+        }
+    }
+}

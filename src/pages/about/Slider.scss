@@ -1,0 +1,39 @@
+.container {
+    overflow: hidden; // 선을 넘어간 이미지들은 숨겨줍니다.
+    .slider-container {
+        display: flex;
+    }
+    .center {
+        text-align: center;
+        .arrow-left {
+            position: absolute;
+            top: 50%;
+            bottom: 0;
+            left: 0;
+            justify-content: center;
+            width: 15%;
+            color: #fff;
+            text-align: center;
+            opacity: 0.5;
+            height: 90px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+        .arrow-right {
+            position: absolute;
+            top: 50%;
+            bottom: 0;
+            right: 0;
+            justify-content: center;
+            width: 15%;
+            color: #fff;
+            text-align: center;
+            opacity: 0.5;
+            height: 90px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+        }
+    }
+}
