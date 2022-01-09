@@ -1,4 +1,4 @@
-import './Slid.scss';
+import './Slide.scss';
 
 
 export default function Slide({ img }: any) {

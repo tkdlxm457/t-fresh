@@ -1,11 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
-import styled from 'styled-components';
 import img1 from "../../slide1.png";
 import img2 from "../../slide2.png";
 import img3 from "../../slide3.png";
 import './Slider.scss';
-
-import Slide from './Slid';
+import Slide from './Slide';
 
 
 
