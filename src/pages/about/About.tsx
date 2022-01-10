@@ -1,4 +1,3 @@
-import React, { useEffect, useRef, useState } from 'react';
 import './About.scss';
 import Slider from './Slider';
 
@@ -54,7 +53,7 @@ const About = () => {
                                         화물주선은 화물차량이 필요한 곳에 차량을 보내드리는 서비스입니다.
                                         팀프레시의 데이터베이스를 활용해 차량의 원활한 수급이 가능하도록 도와드립니다.
                                     </p>
-                                    <a className="card-btn" href="/company/timf/timfInfo.do">더 알아보기</a>
+                                    <a className="card-btn" href="/notice">더 알아보기</a>
                                 </div>
                             </div>
                             <div className="card">
@@ -65,7 +64,7 @@ const About = () => {
                                         풀필먼트는 재고관리, 주문처리, CS 업무 등을 자체적으로 해결하기 어려운 기업을 위한 서비스입니다.
                                         각 화주사별 요구사항을 매뉴얼화해 관리합니다.
                                     </p>
-                                    <a className="card-btn" href="/company/timf/timfInfo.do">더 알아보기</a>
+                                    <a className="card-btn" href="/notice">더 알아보기</a>
                                 </div>
                             </div>
                             <div className="card">
@@ -76,7 +75,7 @@ const About = () => {
                                         급식·외식·온라인 커머스 등의 고객사에 식자재를 공급하는 서비스입니다.
                                         기존 물류망을 활용해 식자재를 일괄 공급함으로써 비용 효율화가 가능하도록 합니다.
                                     </p>
-                                    <a className="card-btn" href="/company/timf/timfInfo.do">더 알아보기</a>
+                                    <a className="card-btn" href="/notice">더 알아보기</a>
                                 </div>
                             </div>
                         </div>
@@ -97,28 +96,28 @@ const About = () => {
                                 </div>
                                 <hr></hr>
                                 <div className="notice-item">
-                                    <a className="notice-item-title">
+                                    <a className="notice-item-title" href="/Notice">
                                         [공고] 신주발행 공고(제3자 배정방식)
                                     </a>
-                                    <a className="notice-item-day">
+                                    <a className="notice-item-day" href="/Notice">
                                         <img className="img" src="/assets/image/about/iconClock.png" alt="더보기" />
                                         2021-09-15
                                     </a>
                                 </div>
                                 <div className="notice-item">
-                                    <a className="notice-item-title">
+                                    <a className="notice-item-title" href="/Notice">
                                         [공고] 신주발행 공고(제3자 배정방식)
                                     </a>
-                                    <a className="notice-item-day">
+                                    <a className="notice-item-day" href="/Notice">
                                         <img className="img" src="/assets/image/about/iconClock.png" alt="더보기" />
                                         2021-09-15
                                     </a>
                                 </div>
                                 <div className="notice-item">
-                                    <a className="notice-item-title">
+                                    <a className="notice-item-title" href="/Notice">
                                         [공고] 신주발행 공고(제3자 배정방식)
                                     </a>
-                                    <a className="notice-item-day">
+                                    <a className="notice-item-day" href="/Notice">
                                         <img className="img" src="/assets/image/about/iconClock.png" alt="더보기" />
                                         2021-09-15
                                     </a>
@@ -131,7 +130,7 @@ const About = () => {
                             <div className="notice-box">
                                 <div className="notice-title">
                                     <h5>Timf News</h5>
-                                    <a href="/notice/notice/noticeList.do">
+                                    <a href="/pressrelease">
                                         <img className="img" src="/assets/image/about/iconPlus.png" alt="더보기" />
                                     </a>
                                 </div>
