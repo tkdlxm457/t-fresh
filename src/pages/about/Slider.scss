@@ -2,9 +2,6 @@
     overflow: hidden; // 선을 넘어간 이미지들은 숨겨줍니다.
     .slider-container {
         display: flex;
-    }
-    .center {
-        text-align: center;
         .arrow-left {
             position: absolute;
             top: 50%;

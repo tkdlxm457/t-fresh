@@ -55,8 +55,6 @@ export default function Slider() {
                 <Slide img={img1} />
                 <Slide img={img2} />
                 <Slide img={img3} />
-            </div>
-            <div className="center">
                 <img className="arrow-left" onClick={PrevSlide} src="/assets/image/about/arrow-left.svg" alt="arrow-left" />
                 <img className="arrow-right" onClick={NextSlide} src="/assets/image/about/arrow-right.svg" alt="arrow-right" />
             </div>
